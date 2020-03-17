@@ -36,21 +36,23 @@ export const Body = () => {
 
             </div>
 
-            <div class="search-box">
-                <input class="search-txt" type="text" name="" placeholder="Type to search" />
-                <a class="search-btn" href="#">
-                    <i class="fas fa-search"></i>
+            <div  className="search-box">
+                <input className="search-txt" type="text" name="" placeholder="Type to search" />
+                <a className="search-btn" href="#">
+                    <i className="fas fa-search"></i>
                 </a>
             </div>
 
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+            <div className="card"></div>
+            <div className="card"></div>
+            <div className="card"></div>
 
 
 
-            
+
         </div>
+
+        
     )
 }
 
